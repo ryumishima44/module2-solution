@@ -1,0 +1,80 @@
+p{
+	font-family: "Arial", sans-serif;
+}
+h1{
+	font-family: "Times New Roman", serif;
+	font-size: 1.75em;
+}
+header{
+	margin:10px 0 10px 0;
+	text-align: center;
+}
+
+.container > section{
+	border:1px solid black;
+	box-sizing: border-box;
+	text-align: justify;
+	margin:5px;
+	padding:0 10px 0 10px;
+}
+
+.container{
+	position: relative;
+}
+
+.sec1{
+	background-color: #83b6e6;
+}
+.sec2{
+	background-color: #e68383;
+}
+.sec3{
+	background-color: #85edab;
+}
+
+.container section > h2{
+	border:1px solid black;
+	border-width: 0 0 1px 1px;
+	display: block;
+	font-size:1.25em;
+	background-color: white;
+	position: relative;
+	right: -10px;
+	float:right;
+	margin:0 0 5px 0;
+	padding: 5px;
+	text-align: center;
+	width: 60px;
+}
+
+.test{
+	padding-bottom: 0;
+	clear: both;
+}
+@media (min-width:992px) {
+	section{
+		width:30%;
+		float: left;	
+	}
+
+}
+@media (min-width:768px) and (max-width: 991px) {
+	.container section{
+		float: left;
+	}
+	.sec1{
+		width: 45%;
+	}
+	.sec2{
+		width:45%;
+	}
+	.sec3{
+		width: 91%;
+	}
+}
+@media (max-width:767px) {
+	.container > section{
+		float: left;
+		margin-bottom:20px;
+	}
+}
