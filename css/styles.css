@@ -1,3 +1,7 @@
+.container{
+	left: 0;
+	right: 0;
+}
 p{
 	font-family: "Arial", sans-serif;
 }
@@ -18,9 +22,6 @@ header{
 	padding:0 10px 0 10px;
 }
 
-.container{
-	position: relative;
-}
 
 #title1{
 	background-color: #83b6e6;
@@ -52,8 +53,8 @@ header{
 	clear: both;
 }
 @media (min-width:992px) {
-	section{
-		width:30%;
+	.container section{
+		width:32%;
 		float: left;	
 	}
 
