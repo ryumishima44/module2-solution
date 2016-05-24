@@ -22,13 +22,13 @@ header{
 	position: relative;
 }
 
-.sec1{
+#title1{
 	background-color: #83b6e6;
 }
-.sec2{
+#title2{
 	background-color: #e68383;
 }
-.sec3{
+#title3{
 	background-color: #85edab;
 }
 
